@@ -21,7 +21,7 @@ $ git config user.email johndoe@example.com
 
 - 全局设置
 
-```
+```bash
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
 ```
@@ -42,7 +42,7 @@ $ git config --global user.email johndoe@example.com
 
   - 初始化的命令
 
-    ```
+    ```bash
     // 初始化.git文件夹
     git init
     // 文件添加到暂存区
@@ -62,11 +62,9 @@ $ git config --global user.email johndoe@example.com
   - 例如：goddlts.github.io
 
 - 上传一个静态页面即可
-
 - 在仓储仓鼠的设置中
 
   ![1510911690628](media/1510911690628.png)
 
 - 然后在当前仓储中放置一个index.html既可以通过username.github.io/仓储名称   访问
-
   - 例如：goddlts.github.io/usegithub
