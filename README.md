@@ -55,4 +55,18 @@ $ git config --global user.email johndoe@example.com
     git push origin master
     ```
 
-    ​
+## Github Pages!
+
+- 新建一个仓储，名字必须指定为 username.github.io
+
+  - 例如：goddlts.github.io
+
+- 上传一个静态页面即可
+
+- 在仓储仓鼠的设置中
+
+  ![1510911690628](media/1510911690628.png)
+
+- 然后在当前仓储中放置一个index.html既可以通过username.github.io/仓储名称   访问
+
+  - 例如：goddlts.github.io/usegithub
