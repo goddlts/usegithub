@@ -66,7 +66,25 @@ $ git log
 - 还原到指定版本
 
 ```bash
-git reset --hard B
+git reset --hard 1cce3c1e6e20ffc86e5fb2b7d5
+```
+
+## 常用操作
+
+- clone
+
+从服务器克隆代码
+
+```bash
+git clone https://github.com/xxx
+```
+
+- pull
+
+获取最新代码
+
+```bash
+git pull
 ```
 
 ## Github Pages!
