@@ -12,7 +12,7 @@ https://help.github.com/articles/testing-your-ssh-connection/
 
 - 本地设置
 
-```
+```bash
 $ git config user.name "John Doe"
 $ git config user.email johndoe@example.com
 ```
@@ -54,6 +54,20 @@ $ git config --global user.email johndoe@example.com
     // 提交到服务器的仓储的master分支
     git push origin master
     ```
+
+## 代码版本还原
+
+- 查看所有版本
+
+```bash
+$ git log
+```
+
+- 还原到指定版本
+
+```bash
+git reset --hard B
+```
 
 ## Github Pages!
 
