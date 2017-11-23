@@ -66,8 +66,30 @@ $ git log
 - 还原到指定版本
 
 ```bash
-git reset --hard 1cce3c1e6e20ffc86e5fb2b7d5
+$ git reset --hard 1cce3c1e6e20ffc86e5fb2b7d5
 ```
+
+## 分支操作
+
+```bash
+查看当前分支
+	$ git branch 
+新建分支
+	$ git branch dev
+切换分支
+	$ git checkout dev
+合并分支(当前分支是master，把dev合并到master)
+	$ git merge dev
+新建和切换分支
+	$ git checkout -b dev  
+	相当于两条命令
+	$ git branch dev
+	$ git checkout dev
+删除分支
+	$ git branch -d dev
+```
+
+
 
 ## 常用操作
 
@@ -94,7 +116,7 @@ git pull
   - 例如：goddlts.github.io
 
 - 上传一个静态页面即可
-- 在仓储仓鼠的设置中
+- 在仓储的设置中 
 
   ![1510911690628](media/1510911690628.png)
 
